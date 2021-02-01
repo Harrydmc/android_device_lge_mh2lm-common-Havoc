@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018 The HavocOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,7 +23,7 @@ COMMON_mh2lm_PATH := device/lge/mh2lm-common
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_mh2lm_PATH)/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/lineage_mh2lm_defconfig
+TARGET_KERNEL_CONFIG := vendor/Havoc_mh2lm_defconfig
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4336910336
